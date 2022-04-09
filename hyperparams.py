@@ -32,7 +32,7 @@ class Hyperparams:
     attention_win_size = 3
 
     # data
-    data = path + "voices"
+    data = "/content/drive/My Drive/Colab Notebooks/hem/vocalnn/vocals" #in a near future pass this as argument of a class
     test_data = '/content/texts.txt'
 
     # ENGLISH
