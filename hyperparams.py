@@ -36,14 +36,14 @@ class Hyperparams:
     test_data = '/content/texts.txt'
 
     # ENGLISH
-    #vocab = "PE abcdefghijklmnopqrstuvwxyz'.?" # P: Padding, E: EOS.
-    #max_N, max_T = 180, 210
-    #logdir = "logdir/LJ01"
+    vocab = "PE abcdefghijklmnopqrstuvwxyz'.?" # P: Padding, E: EOS.
+    max_N, max_T = 180, 210
+    logdir = "logdir/LJ01"
 
     # SPANISH
-    vocab = u'''␀␃ !',-.:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz¡¿ÁÅÉÍÓÚáæèéëíîñóöúü—'''
-    max_N, max_T = 382, 522
-    logdir = "logdir/logdir"
+#     vocab = u'''␀␃ !',-.:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz¡¿ÁÅÉÍÓÚáæèéëíîñóöúü—'''
+#     max_N, max_T = 382, 522
+#     logdir = "logdir/logdir"
 
     # training scheme
     lr = 0.001 # Initial learning rate.
